@@ -78,7 +78,7 @@ public class StartActivity extends ListActivity {
 		client.addHeader("Accept", "application/tvrain.api.2.8+json");
 		client.addHeader("Accept-Language", "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3");
 		client.addHeader("Accept-Encoding", "gzip, deflate");
-		client.addHeader("X-User-Agent", "TV Client (Browser); API_CONSUMER_KEY=a908545f-80af-4f99-8dac-fb012cec");
+		client.addHeader("X-User-Agent", "TV Client (Browser); API_CONSUMER_KEY=SECRETSECRETSECRET");
 		client.addHeader("Content-Type", "application/x-www-form-urlencoded");
 		client.addHeader("X-Result-Define-Thumb-Width", "200");
 		client.addHeader("X-Result-Define-Thumb-height", "110");
